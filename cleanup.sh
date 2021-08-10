@@ -1,0 +1,1 @@
+rm -rf private certs crl newcerts serial index.txt openssl.conf intermediate *.p12 index* serial.*

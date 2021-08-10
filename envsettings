@@ -1,0 +1,9 @@
+# default passphrase for private keys
+export PASSPHRASE=ebmslab
+export CERT_C=NL
+export CERT_ST=Groningen
+export CERT_L=Groningen
+export CERT_O=EbMS
+export CERT_OU=Lab
+export SUBJECT_ROOTCA="/C=$CERT_C/ST=$CERT_ST/L=$CERT_L/O=$CERT_O/OU=$CERT_OU/CN=ROOTCA"
+export SUBJECT_INTERMEDIATECA="/C=$CERT_C/ST=$CERT_ST/L=$CERT_L/O=$CERT_O/OU=$CERT_OU/CN=INTERMEDIATECA1"
